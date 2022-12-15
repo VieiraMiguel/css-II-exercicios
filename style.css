@@ -1,24 +1,41 @@
-header{
+  header{
     border-bottom: 1px solid black;
+    text-align: center;
   }
-  
+
   main{
     width: 800px;
+    margin: auto;
   }
   
   aside{
     width: 180px;
     border: 1px solid black;
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    text-align: center;
   }
   
   footer{
     background-color: black;
     color: white;
     width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px
   }
-  
+
   button{
     background-color: black;
     color: white;
     font-family: serif;
+  }
+  button:active{
+    background-color: white;
+    color: black;
+  }
+  aside:active{
+    background-color: black;
+    color: white;
   }
